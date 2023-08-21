@@ -16,16 +16,24 @@ import {
     StyledInputLabel,
     StyledTextInput,
     RightIcon,
-    Colors
+    Colors,
+    StyledButton,
+    ButtonText,
+    MsgBox,
+    Line,
+    ExtraView,
+    ExtraText,
+    TextLink,
+    TextLinkContent
 } from './../Components/Styles';
 
 import {View} from 'react-native';
 
 // Icons
-import {Octicons, Ionicons} from '@expo/vector-icons';
+import {Octicons, Ionicons, Fontisto} from '@expo/vector-icons';
 
 // Colors
-const {brand, darkLight} = Colors;
+const {brand, darkLight, primary} = Colors;
 
 const Login = () => {
     const [hidePassword, setHidePassword] = useState(true);
@@ -68,6 +76,27 @@ const Login = () => {
                         hidePassword = {hidePassword}
                         setHidePassword = {setHidePassword}
                     />
+                    <MsgBox>. . .</MsgBox>
+                    <StyledButton onPress = {handleSubmit}>
+                        <ButtonText>
+                            Login
+                        </ButtonText>
+                    </StyledButton>
+                    <Line />
+                    <StyledButton google = {true} onPress = {handleSubmit}>
+                        <Fontisto name = "google" color = {primary} size = {25} />
+                        <ButtonText google = {true}>
+                            Continue with Google
+                        </ButtonText>
+                    </StyledButton>
+                    <ExtraView>
+                        <ExtraText>
+                            Don't have an account? 
+                        </ExtraText>
+                        <TextLink>
+                            <TextLinkContent>Create One</TextLinkContent>
+                        </TextLink>
+                    </ExtraView>
                 </StyledFormArea>)}
 
                 </Formik>
@@ -85,7 +114,7 @@ const MyTextInput = ({label, icon, isPassword, hidePassword, setHidePassword, ..
             <StyledInputLabel>{label}</StyledInputLabel>
             <StyledTextInput {...props} />
             {isPassword && (
-                <RightIcon>
+                <RightIcon onPress = {() => setHidePassword(!hidePassword)}>
                     <Ionicons name = {hidePassword ? 'eye-off' : 'eye'} size = {30} color = {darkLight} />
                 </RightIcon>
             )}
