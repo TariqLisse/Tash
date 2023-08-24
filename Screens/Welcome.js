@@ -15,7 +15,7 @@ import {
     Avatar
 } from './../Components/Styles';
 
-const Welcome = () => {
+const Welcome = ({navigation}) => {
 
     return(
         <>
@@ -30,7 +30,7 @@ const Welcome = () => {
                     <Avatar resizeMode = "cover" source = {require('./../assets/Images/icons8-user-default-96.png')} />
                     <Line />
                    
-                    <StyledButton onPress = {() => {}}>
+                    <StyledButton onPress = {() => {navigation.navigate('Login')}}>
                         <ButtonText>
                             Logout
                         </ButtonText>
