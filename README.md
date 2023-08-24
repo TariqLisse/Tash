@@ -1,3 +1,2 @@
 # Tash
-Tash is a platform that stands for "Technology and Social Harmony". It was made to emphasize that technology and the people of the world can come together
-for the sole purpose of peace.
+Tash: Bridging Tech and Global Unity is a dynamic platform championing 'Technology and Social Harmony'. Our mission is to unite technology and humanity, fostering global peace through collaboration.
