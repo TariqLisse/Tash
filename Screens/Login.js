@@ -35,10 +35,14 @@ import {Octicons, Ionicons, Fontisto} from '@expo/vector-icons';
 // Colors
 const {brand, darkLight, primary} = Colors;
 
+// Keyboard Avoiding Wrapper
+import KeyboardAvoidingWrapper from '../Components/KeyboardAvoidingWrapper';
+
 const Login = () => {
     const [hidePassword, setHidePassword] = useState(true);
 
     return(
+        <KeyboardAvoidingWrapper>
         <StyledContainer>
             <StatusBar style = "dark" />
             <InnerContainer>
@@ -102,6 +106,7 @@ const Login = () => {
                 </Formik>
             </InnerContainer>
         </StyledContainer>
+        </KeyboardAvoidingWrapper>
     );
 };
 

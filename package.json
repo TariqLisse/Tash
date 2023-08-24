@@ -13,7 +13,7 @@
     "expo-status-bar": "~1.6.0",
     "formik": "^2.4.3",
     "react": "18.2.0",
-    "react-native": "0.72.3",
+    "react-native": "0.72.4",
     "styled-components": "^6.0.7",
     "expo-constants": "~14.4.2",
     "@react-native-community/datetimepicker": "7.2.0"

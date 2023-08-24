@@ -8,7 +8,6 @@ import {Formik} from 'formik';
 import {
     StyledContainer,
     InnerContainer,
-    PageLogo,
     PageTitle,
     SubTitle,
     StyledFormArea,
@@ -33,10 +32,13 @@ import {View, Pressable, Platform, TouchableOpacity, StyleSheet, Text} from 'rea
 import DateTimePicker from '@react-native-community/datetimepicker';
 
 // Icons
-import {Octicons, Ionicons, Fontisto} from '@expo/vector-icons';
+import {Octicons, Ionicons} from '@expo/vector-icons';
 
 // Colors
-const {brand, darkLight, primary} = Colors;
+const {brand, darkLight} = Colors;
+
+// Keyboard Avoiding Wrapper
+import KeyboardAvoidingWrapper from '../Components/KeyboardAvoidingWrapper';
 
 const Signup = () => {
     const [hidePassword, setHidePassword] = useState(true);
@@ -68,6 +70,7 @@ const Signup = () => {
     };
 
     return(
+        <KeyboardAvoidingWrapper>
         <StyledContainer>
             <StatusBar style = "dark" />
             <InnerContainer>
@@ -209,6 +212,7 @@ const Signup = () => {
                 </Formik>
             </InnerContainer>
         </StyledContainer>
+        </KeyboardAvoidingWrapper>
     );
 };
 
