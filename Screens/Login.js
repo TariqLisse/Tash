@@ -134,12 +134,6 @@ const Login = ({navigation}) => {
 
 
                     <Line />
-                    <StyledButton google = {true} onPress = {handleSubmit}>
-                        <Fontisto name = "google" color = {primary} size = {25} />
-                        <ButtonText google = {true}>
-                            Continue with Google
-                        </ButtonText>
-                    </StyledButton>
                     <ExtraView>
                         <ExtraText>
                             Don't have an account? 
