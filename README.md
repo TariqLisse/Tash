@@ -1,4 +1,4 @@
-# Tash - Login/Signup system using React Native
+# Tash - Login/Signup system with React Native framework
 
 # Login/Signup Project
 
