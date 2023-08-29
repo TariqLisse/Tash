@@ -26,19 +26,19 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/TariqLisse/Tash.git
 
 ### Login Screen
-![IMG-0527](https://github.com/TariqLisse/Tash/assets/59421188/fbbdc021-6182-42af-86d0-69f0b854f4dd)
+<p>![IMG-0527](https://github.com/TariqLisse/Tash/assets/59421188/fbbdc021-6182-42af-86d0-69f0b854f4dd)</p>
 
 ### Signup Screen
-![IMG-0528](https://github.com/TariqLisse/Tash/assets/59421188/aaf5d29b-abfe-4ce3-acb5-ea6b9ef3b38f)
+<p>![IMG-0528](https://github.com/TariqLisse/Tash/assets/59421188/aaf5d29b-abfe-4ce3-acb5-ea6b9ef3b38f)</p>
 
 ### DateTime Picker on Signup Screen
-![IMG-0529](https://github.com/TariqLisse/Tash/assets/59421188/cb80825b-60ae-4e26-bebe-1497ca6dabc0)
+<p>![IMG-0529](https://github.com/TariqLisse/Tash/assets/59421188/cb80825b-60ae-4e26-bebe-1497ca6dabc0)</p>
 
 ### Welcome Page
-![IMG-0530](https://github.com/TariqLisse/Tash/assets/59421188/efd24698-b852-470c-b9e9-2f1973ffdf09)
+<p>![IMG-0530](https://github.com/TariqLisse/Tash/assets/59421188/efd24698-b852-470c-b9e9-2f1973ffdf09)</p>
 
 ### MongoDB Representation of User Information w/ Bcrypt Password Hashing for Security
-![Screenshot (29)](https://github.com/TariqLisse/Tash/assets/59421188/42e461a7-ec53-463d-b378-9aa74016b620)
+<p>![Screenshot (29)](https://github.com/TariqLisse/Tash/assets/59421188/42e461a7-ec53-463d-b378-9aa74016b620)</p>
 
 
 
