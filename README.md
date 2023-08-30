@@ -27,3 +27,19 @@ Before you begin, ensure you have met the following requirements:
 
 ### Login Screen
 ![IMG-0527](https://github.com/TariqLisse/Tash/assets/59421188/dd03cb54-5f3d-4070-8ede-0b4a4e51a7d9)
+
+### Signup Screen
+![IMG-0528](https://github.com/TariqLisse/Tash/assets/59421188/4cf646a9-b57f-4f92-a848-80ffc150c7f2)
+
+### DateTime Picker Option
+![IMG-0529](https://github.com/TariqLisse/Tash/assets/59421188/741ca9d5-7f15-4007-b715-6da52080cb84)
+
+### Welcome Screen
+![IMG-0530](https://github.com/TariqLisse/Tash/assets/59421188/bed9a800-b066-4bab-9d8a-32dacc623ea8)
+
+### MongoDB User Information using bcrypt for password security (Dummy Data)
+![Screenshot (29)](https://github.com/TariqLisse/Tash/assets/59421188/895933ee-0a5e-4b5a-9d9b-39e5f5bf0ad1)
+
+
+
+
