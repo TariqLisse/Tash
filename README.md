@@ -24,3 +24,6 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/TariqLisse/Tash.git
+
+### Login Screen
+![IMG-0527](https://github.com/TariqLisse/Tash/assets/59421188/dd03cb54-5f3d-4070-8ede-0b4a4e51a7d9)
